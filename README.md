@@ -40,6 +40,8 @@ Data analytics closes the loop. What you learn from launches and experiments fee
 
 ## Install
 
+New to Claude skills? Follow the step-by-step [Getting Started guide](GETTING_STARTED.md).
+
 Requirements: Claude Code and `git`.
 
 ```bash
