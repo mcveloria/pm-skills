@@ -10,6 +10,8 @@ Ask in plain language. For example:
 - "Why did week-4 retention drop last month?"
 - "Build a launch plan for our new pricing tier."
 
+See what the output looks like in [`examples/`](examples/): an interview guide, a PRD, and an AI feature spec (fictional data).
+
 ## The skills
 
 | Skill | What it does | Typical outputs |
@@ -43,7 +45,7 @@ Requirements: Claude Code and `git`.
 ```bash
 git clone https://github.com/mcveloria/pm-skills.git
 cd pm-skills
-./install.sh
+bash install.sh
 ```
 
 The script copies each skill folder into `~/.claude/skills/`. Set `CLAUDE_SKILLS_DIR` to install somewhere else, such as a project's `.claude/skills/` folder to share the skills with a team.
@@ -54,7 +56,7 @@ Restart Claude Code afterwards. To install only some skills, copy their folders 
 cp -R skills/product-discovery skills/pm-toolkit ~/.claude/skills/
 ```
 
-To update, run `git pull` and `./install.sh` again.
+To update, run `git pull` and `bash install.sh` again.
 
 ## Repository layout
 
